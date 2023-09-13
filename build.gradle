@@ -25,6 +25,10 @@ dependencies {
 	// extension
 	implementation 'commons-io:commons-io:2.11.0'
 
+	// Mockito JUnit Runner
+    testImplementation 'org.mockito:mockito-core:3.12.4'
+    testImplementation 'org.mockito:mockito-junit-jupiter:3.12.4'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
